@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 10001,
-  "latestVersionName": "01.00.01",
-  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v01.00.01/SuperTerminal-v01.00.01.apk",
-  "changelog": "Super Terminal v01.00.01 - 3 xonali ab.cd.ef versiyalash tizimiga o'tildi",
+  "latestVersionCode": 21010,
+  "latestVersionName": "1.1.0",
+  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.0/SuperTerminal-v1.1.0.apk",
+  "changelog": "Super Terminal v1.1.0 - Yangi x.ab.y (boshlang'ich 1.1.0) versiyalash tizimi joriy etildi",
   "releaseDate": "2026-09-25",
   "mandatory": false
 }
