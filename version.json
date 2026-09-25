@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 21012,
-  "latestVersionName": "1.1.2",
-  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.2/SuperTerminal-v1.1.2.apk",
-  "changelog": "Super Terminal v1.1.2 - Yopish tugmasi, Terminal mavzulari va Tarix tugmalari Ilova tili tugmalari bilan bir xil mukammal OneUI Glass Capsule shakliga keltirildi",
+  "latestVersionCode": 21013,
+  "latestVersionName": "1.1.3",
+  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.3/SuperTerminal-v1.1.3.apk",
+  "changelog": "Super Terminal v1.1.3 - 3 nuqta menyusi yangilanish opsiyasi sozlamalarga ko'chirildi, OTA yangilash dvijogi OkHttp stream tezligiga oshirildi va PRoot jniLibs orqali ARM64/ARM/x86 Kali muhiti to'liq ta'minlandi",
   "releaseDate": "2026-09-25",
   "mandatory": false
 }
