@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 21011,
-  "latestVersionName": "1.1.1",
-  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.1/SuperTerminal-v1.1.1.apk",
-  "changelog": "Super Terminal v1.1.1 - Yopish tugmasi va Mavzu hamda Tarix tugmalari dizayni OneUI Glass Capsule shakliga yangilandi",
+  "latestVersionCode": 21012,
+  "latestVersionName": "1.1.2",
+  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.2/SuperTerminal-v1.1.2.apk",
+  "changelog": "Super Terminal v1.1.2 - Yopish tugmasi, Terminal mavzulari va Tarix tugmalari Ilova tili tugmalari bilan bir xil mukammal OneUI Glass Capsule shakliga keltirildi",
   "releaseDate": "2026-09-25",
   "mandatory": false
 }
