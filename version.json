@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 21010,
-  "latestVersionName": "1.1.0",
-  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.0/SuperTerminal-v1.1.0.apk",
-  "changelog": "Super Terminal v1.1.0 - Yangi x.ab.y (boshlang'ich 1.1.0) versiyalash tizimi joriy etildi",
+  "latestVersionCode": 21011,
+  "latestVersionName": "1.1.1",
+  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.1/SuperTerminal-v1.1.1.apk",
+  "changelog": "Super Terminal v1.1.1 - Yopish tugmasi va Mavzu hamda Tarix tugmalari dizayni OneUI Glass Capsule shakliga yangilandi",
   "releaseDate": "2026-09-25",
   "mandatory": false
 }
