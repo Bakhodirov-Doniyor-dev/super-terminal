@@ -1,0 +1,6 @@
+{
+  "name": "Super Terminal Manager",
+  "description": "Professional Android Wireless ADB Client and System Diagnostics Suite. Real hardware metrics, multi-device ADB management, package utilities, and high-performance native terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
