@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maxfiylik Siyosati (Privacy Policy) - Terminal App</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+        h1 {
+            color: #111;
+            border-bottom: 2px solid #eaeaea;
+            padding-bottom: 10px;
+            font-size: 28px;
+        }
+        h2 {
+            color: #222;
+            margin-top: 30px;
+            font-size: 20px;
+        }
+        p, li {
+            font-size: 16px;
+            color: #555;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        .footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 14px;
+            color: #999;
+            border-top: 1px solid #eaeaea;
+            padding-top: 20px;
+        }
+        .lang-switch {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .lang-btn {
+            background: #eee;
+            border: none;
+            padding: 6px 12px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .lang-btn.active {
+            background: #007bff;
+            color: white;
+        }
+        .lang-section {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="lang-switch">
+        <button id="btn-uz" class="lang-btn active" onclick="switchLang('uz', this)">O'zbekcha</button>
+        <button id="btn-en" class="lang-btn" onclick="switchLang('en', this)">English</button>
+        <button id="btn-ru" class="lang-btn" onclick="switchLang('ru', this)">Русский</button>
+    </div>
+
+    <!-- O'ZBEKCHA -->
+    <div id="lang-uz" class="lang-section">
+        <h1>Maxfiylik Siyosati</h1>
+        <p><strong>Oxirgi yangilanish:</strong> 11-Iyun, 2026-yil</p>
+        <p>Ushbu maxfiylik siyosati sizning <strong>Terminal</strong> mobil ilovasidan (keyingi o'rinlarda "Ilova") foydalanishingizni tartibga soladi. Ilova developer va administrator maxsus amallarini bajarish uchun mo'ljallangan terminal vositasidir.</p>
+
+        <h2>1. Ma'lumotlarni yig'ish va ulardan foydalanish</h2>
+        <p>Ilova to'liq oflayn tarzda va xavfsiz ishlaydi:</p>
+        <ul>
+            <li><strong>Shaxsiy ma'lumotlar:</strong> Ilova sizning ismingiz, telefon raqamingiz, elektron pochtangiz yoki boshqa identifikatsiya ma'lumotlaringizni umuman yig'maydi.</li>
+            <li><strong>Buyruqlar tarixi:</strong> Ilovada yozilgan barcha buyruqlar va xizmat ma'lumotlari faqat sizning telefoningiz ichida shifrlangan lokal ma'lumotlar bazasida saqlanadi.</li>
+            <li><strong>Sinxronizatsiya va Serverlar:</strong> Hech qanday ma'lumot tashqi serverlarga va uchinchi shaxslarga uzatilmaydi. Ilovada ruxsatsiz fon xizmatlari mavjud emas.</li>
+        </ul>
+
+        <h2>2. Qurilma ruxsatnomalari (Permissions)</h2>
+        <p>Ilova to'g'ri ishlashi uchun faqat qonuniy va xavfsiz ulanishlarni talab qiladi:</p>
+        <ul>
+            <li><strong>Internet va Wi-Fi holati:</strong> Simsiz ADB (Android Debug Bridge) portiga mahalliy ulanish (Localhost 127.0.0.1) va Wi-Fi holatini olish uchun foydalaniladi.</li>
+        </ul>
+
+        <h2>3. Uchinchi shaxslar xizmatlari</h2>
+        <p>Ilovada uchinchi tomon reklama tizimi (AdMob kabi) yoki foydalanuvchini kuzatish tahliliy xizmatlari (Analytics) o'rnatilmagan.</p>
+
+        <h2>4. Bolalar maxfiyligi</h2>
+        <p>Ilova ushbu guruhga oid maxfiylik talablariga to'liq javob beradi va bolalardan hech qanday ma'lumot to'plamaydi.</p>
+
+        <h2>5. Biz bilan bog'lanish</h2>
+        <p>Agarda maxfiylik bo'yicha savollaringiz bo'lsa, ishlab chiquvchiga elektron pochta orqali murojaat qilishingiz mumkin: <br>
+        <strong>Email:</strong> bakhodirov.dev@gmail.com</p>
+    </div>
+
+    <!-- ENGLISH -->
+    <div id="lang-en" class="lang-section" style="display: none;">
+        <h1>Privacy Policy</h1>
+        <p><strong>Last Updated:</strong> June 11, 2026</p>
+        <p>This privacy policy governs your use of the <strong>Terminal</strong> mobile application (hereinafter referred to as "the Application"). This tool operates as an ADB shell utility.</p>
+
+        <h2>1. Information Collection and Use</h2>
+        <p>The Application is designed with a strict client-only security structure:</p>
+        <ul>
+            <li><strong>Personal Data:</strong> We do not collect, request, or store any personal identifiably values (name, phone, mail).</li>
+            <li><strong>Command Logs:</strong> Your execution log and history remain strictly localized on-device in a protected sandbox.</li>
+            <li><strong>Data Transmission:</strong> No data is transmitted to external servers or shared with third parties. No unauthorized background trackers are permitted.</li>
+        </ul>
+
+        <h2>2. Declared Device Permissions</h2>
+        <p>Permissions are strictly limited to core operations:</p>
+        <ul>
+            <li><strong>Internet & Wi-Fi state:</strong> Utilized solely for creating local network connections with ADB ports (Local host looping).</li>
+        </ul>
+
+        <h2>3. Third-party SDKs</h2>
+        <p>The Application does NOT use any third-party ads networks (like AdMob) or tracking integrations.</p>
+
+        <h2>4. Contact Us</h2>
+        <p>If you have questions regarding this privacy policy, contact the developer:<br>
+        <strong>Email:</strong> bakhodirov.dev@gmail.com</p>
+    </div>
+
+    <!-- RUSSIAN -->
+    <div id="lang-ru" class="lang-section" style="display: none;">
+        <h1>Политика конфиденциальности</h1>
+        <p><strong>Последнее обновление:</strong> 11 июня 2026 г.</p>
+        <p>Настоящая политика конфиденциальности определяет порядок обработки данных в мобильном приложении <strong>Terminal</strong> (далее «Приложение»).</p>
+
+        <h2>1. Сбор и использование информации</h2>
+        <p>Приложение полностью автономно и безопасно:</p>
+        <ul>
+            <li><strong>Личные данные:</strong> Приложение не запрашивает и не хранит ваши личные данные (имя, почта, телефон).</li>
+            <li><strong>История команд:</strong> Все введенные команды находятся в локальном зашифрованном хранилище вашего устройства.</li>
+            <li><strong>Передача данных:</strong> Приложение не отправляет данные на внешние серверы и не передает информацию третьим лицам.</li>
+        </ul>
+
+        <h2>2. Разрешения устройства</h2>
+        <ul>
+            <li><strong>Интернет и состояние сети Wi-Fi:</strong> Используются исключительно для локального подключения к порту ADB (на localhost/127.0.0.1).</li>
+        </ul>
+
+        <h2>3. Сторонние службы</h2>
+        <p>В приложении нет рекламы и аналитических трекеров от сторонних разработчиков.</p>
+
+        <h2>4. Контакты</h2>
+        <p>Если у вас возникли вопросы, свяжитесь с разработчиком:<br>
+        <strong>Email:</strong> bakhodirov.dev@gmail.com</p>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Terminal App. Bahodirov Doniyor. Barcha huquqlar himoyalangan.</p>
+    </div>
+</div>
+
+<script>
+    function switchLang(lang, element) {
+        // Toggle Active button styling
+        var buttons = document.querySelectorAll('.lang-btn');
+        buttons.forEach(function(btn) {
+            btn.classList.remove('active');
+        });
+
+        if (element) {
+            element.classList.add('active');
+        } else {
+            var targetBtn = document.getElementById('btn-' + lang);
+            if (targetBtn) {
+                targetBtn.classList.add('active');
+            }
+        }
+
+        // Toggle visibility of translation sections
+        var sections = document.querySelectorAll('.lang-section');
+        sections.forEach(function(sec) {
+            sec.style.display = 'none';
+        });
+
+        var targetSec = document.getElementById('lang-' + lang);
+        if (targetSec) {
+            targetSec.style.display = 'block';
+            document.documentElement.lang = lang;
+        }
+    }
+
+    // Auto-detect language from URL parameter or hash if present
+    window.addEventListener('DOMContentLoaded', function() {
+        var params = new URLSearchParams(window.location.search);
+        var urlLang = params.get('lang') || window.location.hash.replace('#', '');
+        if (urlLang && ['uz', 'en', 'ru'].indexOf(urlLang) !== -1) {
+            switchLang(urlLang);
+        }
+    });
+</script>
+</body>
+</html>
