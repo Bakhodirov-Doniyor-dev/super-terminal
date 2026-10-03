@@ -14,8 +14,8 @@ android {
     applicationId = "com.bahodirov.super.terminal.menejer"
     minSdk = 24
     targetSdk = 36
-    versionCode = 21017
-    versionName = "1.1.7"
+    versionCode = 21018
+    versionName = "1.1.8"
 
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     vectorDrawables {
