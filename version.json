@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 21017,
-  "latestVersionName": "1.1.7",
-  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.7/SuperTerminal-v1.1.7.apk",
-  "changelog": "Ilova ikonkasi yangi ubuntu_android_icon_v2 rasmi bilan to'liq yangilandi",
+  "latestVersionCode": 21018,
+  "latestVersionName": "1.1.8",
+  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.8/SuperTerminal-v1.1.8.apk",
+  "changelog": "Professional LAN File Server yangilanishi: Mahalliy HTTP Range streaming yuklash, katta fayllarni diskka oqimli (streaming) upload qilish, xavfsiz Token autentifikatsiyasi, Path traversal va symlink himoyasi, jonli statistika (IP, Port, Mijozlar, Baytlar, Uptime), QR kod va ADB qurilmasi bilan avtomatik integratsiya",
   "releaseDate": "2026-09-25",
   "mandatory": false
 }
