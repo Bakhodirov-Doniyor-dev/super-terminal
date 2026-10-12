@@ -1,8 +1,8 @@
 {
-  "latestVersionCode": 21018,
-  "latestVersionName": "1.1.8",
-  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.1.8/SuperTerminal-v1.1.8.apk",
-  "changelog": "Professional LAN File Server yangilanishi: Mahalliy HTTP Range streaming yuklash, katta fayllarni diskka oqimli (streaming) upload qilish, xavfsiz Token autentifikatsiyasi, Path traversal va symlink himoyasi, jonli statistika (IP, Port, Mijozlar, Baytlar, Uptime), QR kod va ADB qurilmasi bilan avtomatik integratsiya",
+  "latestVersionCode": 21200,
+  "latestVersionName": "1.2.0",
+  "downloadUrl": "https://github.com/Bakhodirov-Doniyor-dev/super-terminal/releases/download/v1.2.0/SuperTerminal-v1.2.0.apk",
+  "changelog": "Super Terminal v1.2.0 yangilanishi: LAN Server to'liq barqarorlashtirildi (Wi-Fi/Mobile tarmoq o'zgarishi, telefon reboot va brauzer sessiyalarida uzilishsiz ishlash), 1MB buferli Turbo yuqori tezlikdagi fayl yuklash (150MB+ va 40+ rasm tezkor uzatish), mobil moslashuvchan interfeys (papkalar va fayllar ko'rinishi, vertikal tugmalar va brauzer ichida to'g'ridan-to'g'ri PDF/hujjat ko'rish dasturi)",
   "releaseDate": "2026-09-25",
   "mandatory": false
 }
